@@ -16,30 +16,49 @@
 
       <br />
       <form>
+        <label for="name">Your Name</label>
         <input
+          id="name"
           type="text"
           name="ccname"
           autocomplete="given-name"
           class="input"
-        />
+          placeholder="Write your name here..."
+        /><br />
+        <br />
+        <label for="cardNumber">Card Number</label>
         <input
+          id="cardNumber"
           type="number"
           name="cardnumber"
           autocomplete="given-cardnumber"
           class="input"
-        />
+          placeholder="Write your card number here..."
+        /><br />
+        <br />
+        <label for="cvc">CVC</label>
         <input
+          id="cvc"
           type="number"
           name="cvc"
           autocomplete="given-cvc"
           class="input"
+          placeholder="Write the CVC here..."
         />
+        <br />
+        <br />
+        <label for="cc-exp">CC expiration date</label>
         <input
+          id="cc-exp"
           type="number"
           name="cc-exp"
           autocomplete="given-exp"
           class="input"
+          placeholder="Write the expiration date here..."
         />
+        <br />
+        <br />
+        <button type="submit">Submit</button>
       </form>
     </div>
   </body>
